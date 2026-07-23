@@ -1,16 +1,38 @@
-# React + Vite
+# TalentMatch AI v1.0
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![TalentMatch AI Banner](https://via.placeholder.com/1200x400/4f46e5/ffffff?text=TalentMatch+AI)
 
-Currently, two official plugins are available:
+An Enterprise AI-Powered Multi-Agent Career Intelligence Platform.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Key Features
 
-## React Compiler
+* **Multi-Agent Orchestration**: Master Orchestrator, Job Collector, Resume Intelligence, and Placement Agents working in harmony.
+* **Resume Intelligence**: Advanced NLP parsing to deconstruct and grade resumes.
+* **Precision Job Matching**: AI algorithms that map candidate strengths to parsed job descriptions.
+* **Placement Intelligence**: Automated lifecycle tracking (applications, interviews, offers).
+* **Enterprise UI/UX**: Stunning Glassmorphism design, Dark/Light modes, and hardware-accelerated animations.
+* **Production Security**: Hardened with Flask-Talisman, Flask-Limiter, and Flask-WTF CSRF protection.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📚 Documentation Directory
 
-## Expanding the ESLint configuration
+Please explore our detailed documentation:
+* [Architecture Overview](docs/ARCHITECTURE.md)
+* [Installation Guide](docs/INSTALLATION.md)
+* [Deployment Guide](docs/DEPLOYMENT.md)
+* [User Guide](docs/USER_GUIDE.md)
+* [Admin Guide](docs/ADMIN_GUIDE.md)
+* [API Reference](docs/API_DOCUMENTATION.md)
+* [Hackathon Deliverables](docs/HACKATHON_DELIVERABLES.md)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Quick Start
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+python app.py
+```
+Visit `http://localhost:5000` to access the platform.
+
+## 🛡️ License
+MIT License. See [LICENSE](LICENSE) for details.
